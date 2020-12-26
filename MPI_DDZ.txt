@@ -1,0 +1,4 @@
+mpic++ -o pwdfinder pwdfinder.cpp -lcrypt
+./pwdcrypter qwerty
+mpirun -output-filename out -np 4 pwdfinder rockyou.txt anZXyKGVyvyCs
+cat sourcefile.txt | sed -n 15,35p
